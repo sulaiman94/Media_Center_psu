@@ -10,7 +10,160 @@
 	width: 70%;
 }
 
-#more_news{
-		margin-left: 89%;
-		margin-right: auto;
+#more_news {
+	margin-left: 89%;
+	margin-right: auto;
+}
+
+#myNavbar li a {
+	text-align: center;
+}
+
+.mag {
+	margin-right: 10px;
+}
+
+.one_100 {
+	width: 100%;
+	height: 100%;
+}
+
+.main_videos {
+	height: 90%;
+}
+
+.sub_videos {
+	width: 80%
+}
+
+/* jssor slider bullet navigator skin 05 css */
+/*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+.jssorb05 {
+	position: absolute;
+}
+
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+	position: absolute;
+	/* size of bullet elment */
+	width: 16px;
+	height: 16px;
+	background: url('img/b05.png') no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.jssorb05 div {
+	background-position: -7px -7px;
+}
+
+.jssorb05 div:hover, .jssorb05 .av:hover {
+	background-position: -37px -7px;
+}
+
+.jssorb05 .av {
+	background-position: -67px -7px;
+}
+
+.jssorb05 .dn, .jssorb05 .dn:hover {
+	background-position: -97px -7px;
+}
+
+/* jssor slider arrow navigator skin 22 css */
+/*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+.jssora22l, .jssora22r {
+	display: block;
+	position: absolute;
+	/* size of arrow element */
+	width: 40px;
+	height: 58px;
+	cursor: pointer;
+	background: url('img/a22.png') center center no-repeat;
+	overflow: hidden;
+}
+
+.jssora22l {
+	background-position: -10px -31px;
+}
+
+.jssora22r {
+	background-position: -70px -31px;
+}
+
+.jssora22l:hover {
+	background-position: -130px -31px;
+}
+
+.jssora22r:hover {
+	background-position: -190px -31px;
+}
+
+.jssora22l.jssora22ldn {
+	background-position: -250px -31px;
+}
+
+.jssora22r.jssora22rdn {
+	background-position: -310px -31px;
+}
+
+.caption {
+	width: 100%;
+	bottom: .3rem;
+	position: absolute;
+	background: #000;
+	background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0)
+		100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%)
+		repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%)
+		repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%)
+		repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.thumbnail {
+	border: 0 none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+}
+
+.caption h4 {
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+.note-success {
+	border-color: #5cb85c;
+	background: #dff0d8;
+}
+
+.note {
+	margin: 0 0 20px 0;
+	padding: 15px 30px 15px 15px;
+	border-left: 3px solid #5cb85c;
+	border-radius: 0 !important;
+}
+
+.note-success .box-heading {
+	color: #5cb85c;
+}
+
+
+.box-heading {
+	font-weight: bold;
+	font-family: 'Oswald';
+	margin-bottom: 15px;
 }
